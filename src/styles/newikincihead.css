@@ -1,0 +1,149 @@
+.new-ikinci-head-container {
+    width: 1440px;
+    height: 503px;
+    background-color: #F6D14D;
+    display: flex;
+
+}
+
+.newcraft-ikinci-head-ilk-yazi {
+    width: 675px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.ikincihead-ilkyazi {
+    width: 508px;
+    height: 281px;
+    font-family: 'Jura';
+    font-style: normal;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-right: 40px;
+    text-transform: uppercase;
+
+    color: #212629;
+}
+
+.read-more {
+    box-sizing: border-box;
+    gap: 38px;
+    width: 561px;
+    height: 81px;
+    left: 51px;
+    top: 1734px;
+
+    border: 2px solid #FFFFFF;
+    border-radius: 33px;
+    display: flex;
+    align-items: center;
+    font-family: 'Jura';
+    font-style: normal;
+    font-size: 27px;
+    line-height: 118.5%;
+    /* or 32px */
+
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+
+}
+
+.twft3 {
+
+    width: 50px;
+    height: 41.67px;
+}
+
+.mft2 {
+    width: 50px;
+    height: 41.67px;
+}
+
+.new-ikinci-head-turuncu {
+    width: 765px;
+    height: 100%;
+    background: linear-gradient(to right,
+            #E88645 0%,
+            #E88645 50%,
+            #F2A056 50%,
+            #F2A056 100%);
+    float: right;
+    display: flex;
+    justify-content: center;
+}
+
+.ikincihead-3dsekil {
+    display: flex;
+    justify-content: center;
+    width: 1px;
+}
+
+.sekil3dd {
+    left: 780px;
+    margin-top: -139px;
+}
+
+.buildfuture-newcraft {
+    width: 1440px;
+    height: 60px;
+    background-color: #212629;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.m-scrolll {
+    display: flex;
+    position: relative;
+    width: 1440px;
+    height: 81px;
+    margin: auto;
+    overflow: hidden;
+    z-index: 1;
+    font-family: 'Jura';
+    font-style: normal;
+    font-size: 15px;
+    text-transform: uppercase;
+    background-color: #191D1F;
+    color: white;
+}
+
+.sliding-text {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100%;
+    white-space: nowrap;
+    transform: scale(2);
+    transition: all 1s ease;
+}
+
+.sliding-text>div {
+    display: flex;
+    animation: scrollText 33s infinite linear;
+}
+
+.sliding-text>h1 {
+    margin: 0;
+    font-size: 140px;
+    color: rgba(255, 255, 255, 1);
+    transition: all 2s ease;
+}
+
+.sliding-text>a {
+    text-decoration: none;
+    color: white;
+}
+
+.sliding-text>a:hover {
+    -webkit-text-stroke: 1px white;
+    color: transparent;
+}

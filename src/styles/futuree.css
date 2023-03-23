@@ -1,0 +1,261 @@
+.future-container {
+    width: 1440px;
+    height: 753.48px;
+    background-color: #191D1F;
+}
+
+.interactive-text {
+    width: 804px;
+    height: 31px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-size: 27px;
+    line-height: 114%;
+    color: #D8D8D8;
+    margin-top: 111px;
+    margin-left: 50px;
+}
+
+.twft2 {
+    width: 24px;
+}
+
+
+
+.futures-text-container {
+
+    width: 1440px;
+    height: 100.8px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-top: 45px;
+}
+
+.futures-text {
+    width: 1221px;
+    height: 112px;
+    font-family: 'Jura';
+    font-style: normal;
+    font-size: 110px;
+    line-height: 100px;
+    color: #D8D8D8;
+    margin-left: 40px;
+
+}
+
+#hashtagweb3build {
+    width: 258px;
+    height: 70px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-size: 27px;
+    line-height: 114%;
+    text-align: right;
+    color: #FFFFFF;
+    flex-wrap: nowrap;
+    margin-right: 41px;
+
+}
+
+.mavi-beyaz-kutu-container {
+    width: 1440px;
+    height: 158.4px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+
+
+
+}
+
+.mavibeyaz-altindaki-text {
+    width: 936px;
+    height: 135px;
+    left: 58px;
+    top: 4579px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-size: 24px;
+    line-height: 151%;
+    color: #FFFFFF;
+    margin-left: 50px;
+    margin-top: 92px;
+}
+
+.mavibeyaz-alti-text-cont {
+    display: flex;
+}
+
+.read-more-btn {
+    width: 231px;
+    height: 48px;
+
+    border: 1px solid #FFFFFF;
+    border-radius: 33px;
+    background-color: #191D1F;
+    margin-top: 94px;
+    margin-right: 43px;
+    color: #FFFFFF;
+    font-family: 'Jura';
+    font-style: normal;
+    font-size: 12.96px;
+    line-height: 118.5%;
+    border-color: white;
+    margin-left: 360px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    gap: 4.32px;
+    padding-left: 28px;
+}
+
+
+
+.degenlabs-cont {
+    width: 1440px;
+    height: 216px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.degenlabs {
+    font-family: 'Jura';
+    font-style: normal;
+    font-size: 110px;
+    line-height: 72px;
+    padding-left: 33.12px;
+    text-transform: uppercase;
+
+    color: #5CCFCA;
+
+}
+
+.collab-call {
+    height: 600px;
+}
+
+.collab-btn {
+    width: 131px;
+    height: 34px;
+    border: 1px solid #5CCFCA;
+    border-radius: 14px;
+    background-color: #191D1F;
+    color: #5CCFCA;
+    font-family: 'Jura';
+    font-style: normal;
+    font-size: 12.96px;
+    border-color: white;
+    margin-left: 130px;
+    margin-top: 550px;
+
+    text-transform: uppercase;
+
+}
+
+
+
+.handful-text {
+    width: 269px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 114%;
+    text-align: right;
+    color: #5CCFCA;
+    padding-right: 55px;
+
+}
+
+.handful-text1 {
+    width: 269px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 114%;
+    text-align: right;
+    color: #5CCFCA;
+    padding-right: 55px;
+    padding-top: 50px;
+
+}
+
+.progress {
+    background: #FFFFFF;
+    border-radius: 20px;
+    align-items: center;
+    position: relative;
+    padding: 0 0px;
+    display: flex;
+    margin-left: 49px;
+    height: 120px;
+    width: 94%;
+    gap: 40px;
+}
+
+.yuzde41 {
+    font-size: 65px;
+    padding-left: 36px;
+}
+
+.progress-value {
+    box-shadow: -6px 7px 29px -6px #fff;
+    padding-left: 6px;
+    border-radius: 20px;
+    background: #5CCFCA;
+    height: 120px;
+    width: 0;
+    font-family: 'Jura';
+    font-style: normal;
+    line-height: 123px;
+    /* or 160% */
+
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.load {
+    animation: load 2s normal forwards;
+}
+
+@keyframes load {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 41%;
+    }
+}
+
+.progress-yazilar {
+    display: flex;
+    flex-direction: column;
+}
+
+.progress-yazilar-1 {
+    font-family: 'Jura';
+    font-style: normal;
+    font-size: 30px;
+    /* or 100% */
+    text-transform: uppercase;
+
+    color: #5CCFCA;
+}
+
+.progress-yazilar-2 {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-size: 30px;
+    line-height: 151%;
+    /* or 45px */
+    padding-left: 1.5px;
+
+
+    color: #000000;
+}

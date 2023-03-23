@@ -1,0 +1,292 @@
+.avatar-container {
+    width: 1440px;
+    height: 357px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+
+}
+
+.avatar-bir {
+    border-radius: 50%;
+    width: 14%;
+    height: 176px;
+
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.berkavatar {
+    width: 257px;
+    height: 258px;
+}
+
+.avatar-iki {
+    border-radius: 50%;
+    width: 14%;
+    height: 176px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.avatar-uc {
+    border-radius: 50%;
+    width: 14%;
+    height: 176px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.avatar-dort {
+    border-radius: 50%;
+    width: 14%;
+    height: 176px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.avatar-yazi-container {
+    width: 100%;
+    height: 544px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.yazi-bir-cont {
+    width: 100%;
+    height: 576px;
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+    margin-top: -150px;
+
+
+}
+
+.baslik-bir {
+    font-family: 'Jura';
+    font-style: normal;
+    margin-top: 150px;
+    font-size: 50px;
+    line-height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #D9D9D9;
+}
+
+.altyazi-bir {
+
+    font-family: 'Jura';
+    font-style: normal;
+
+    font-size: 24px;
+    line-height: 37px;
+    text-align: left;
+    padding-left: 40px;
+    text-transform: uppercase;
+
+    color: #D9D9D9;
+}
+
+.altyazi-iki {
+
+    font-family: 'Jura';
+    font-style: normal;
+
+    font-size: 24px;
+    line-height: 37px;
+    text-align: left;
+    padding-left: 20px;
+    text-transform: uppercase;
+
+    color: #D9D9D9;
+}
+
+.altyazi-uc {
+
+    font-family: 'Jura';
+    font-style: normal;
+
+    font-size: 24px;
+    line-height: 37px;
+    text-align: left;
+    padding-left: 20px;
+    text-transform: uppercase;
+
+    color: #D9D9D9;
+}
+
+.altyazi-dort {
+
+    font-family: 'Jura';
+    font-style: normal;
+
+    font-size: 24px;
+    line-height: 37px;
+    text-align: left;
+    padding-left: 35px;
+    text-transform: uppercase;
+
+    color: #D9D9D9;
+}
+
+.alt-email {
+    font-family: 'Helvetica';
+    font-style: normal;
+
+    font-size: 19px;
+    line-height: 37px;
+    padding-left: 40px;
+    color: #D9D9D9;
+}
+
+.alt-email2 {
+    font-family: 'Helvetica';
+    font-style: normal;
+
+    font-size: 19px;
+    line-height: 37px;
+    padding-left: 22px;
+    color: #D9D9D9;
+}
+
+.alt-email3 {
+    font-family: 'Helvetica';
+    font-style: normal;
+
+    font-size: 19px;
+    line-height: 37px;
+    padding-left: 21px;
+    color: #D9D9D9;
+}
+
+.alt-email4 {
+    font-family: 'Helvetica';
+    font-style: normal;
+
+    font-size: 19px;
+    line-height: 37px;
+    padding-left: 36px;
+    color: #D9D9D9;
+}
+
+.yazi-iki-cont {
+    width: 25%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: aqua;
+}
+
+.cizgi {
+    width: 50px;
+    height: 1px;
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-bottom: 25px;
+}
+
+.cizgi2 {
+    width: 50px;
+    height: 1px;
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+}
+
+.cizgi3 {
+    width: 50px;
+    height: 1px;
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 24px;
+    margin-bottom: 25px;
+}
+
+.cizgi4 {
+    width: 50px;
+    height: 1px;
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-bottom: 25px;
+}
+
+.toggle-cont {
+    background-color: white;
+    width: 1440px;
+    height: 100px;
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 100px;
+    /* identical to box height, or 333% */
+
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+.toggle-yazi {
+    padding-left: 55px;
+    padding-top: 50px;
+}
+
+label {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    margin-left: 55px;
+}
+
+input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+span {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #2c3e50;
+    transition: 0.3s;
+    border-radius: 30px;
+}
+
+span:before {
+    position: absolute;
+    content: "";
+    height: 25px;
+    width: 25px;
+    left: 3px;
+    bottom: 2.6px;
+    background-color: #fff;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+input:checked+span {
+    background-color: #00c853;
+}
+
+input:checked+span:before {
+    transform: translateX(29px);
+}

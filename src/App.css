@@ -1,0 +1,138 @@
+@font-face {
+  src: url("https://www.axis-praxis.org/fonts/webfonts/MetaVariableDemo-Set.woff2") format("woff2");
+  font-family: "Meta";
+  font-style: normal;
+
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #E88645;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+html,
+body {
+  width: 1440px;
+  margin: auto;
+  background-color: #191D1F;
+
+
+}
+
+.servicess {
+  width: 1276px;
+  height: 269px;
+  margin-left: 70px;
+}
+
+.iconbaglanti {
+  padding-left: 160px;
+  padding-top: 30px;
+}
+
+.iconetiket {
+  padding-left: 160px;
+  padding-top: 30px;
+}
+
+.kaydetico {
+  padding-left: 164px;
+  padding-top: 30px;
+}
+
+.soon {
+  color: #E88645;
+  font-size: 220px;
+  font-family: 'Jura';
+  display: flex;
+
+  align-items: center;
+  height: 500px;
+  width: 100%;
+  padding-top: 1000px;
+  flex-direction: column;
+
+}
+
+.fiveweeks {
+  font-family: 'Jura';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 90px;
+  text-transform: uppercase;
+  margin-left: 202px;
+  color: #F6D14D;
+}
+
+.button-bir {
+  height: 39px;
+  width: 187px;
+  border-radius: 10px;
+  background-color: #212629;
+  border: 1px solid white;
+  margin-left: 18%;
+
+  font-family: 'Jura';
+  font-style: normal;
+  font-size: 14px;
+
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+}
+
+.button-iki {
+  height: 39px;
+  width: 187px;
+  border-radius: 10px;
+  background-color: #212629;
+  border: 1px solid #F6D14D;
+  margin-left: 18%;
+
+  font-family: 'Jura';
+  font-style: normal;
+
+  font-size: 14px;
+
+  text-transform: uppercase;
+
+  color: #F6D14D;
+
+}
+
+main {
+  transition: all 0.5s;
+  -webkit-text-stroke: 4px #d6f4f4;
+  font-variation-settings: "wght" 900, "ital" 1;
+  font-size: 2vw;
+  text-align: center;
+  color: transparent;
+  font-family: "Meta";
+  text-shadow: 5px 5px 0px #F6D14D,
+    8px 8px 0px #e601c0,
+    10px 10px 0px #e9019a,
+    12px 12px 0px #f40468,
+    30px 30px 10px #482896;
+  cursor: pointer;
+}
+
+main:hover {
+  font-variation-settings: "wght" 100, "ital" 0;
+  text-shadow: none;
+}

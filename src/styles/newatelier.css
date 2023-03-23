@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@700&display=swap');
+
+.atelier-container {
+    display: flex;
+    width: 1440px;
+    height: 708px;
+    background-color: #F6D14D;
+}
+
+.atelier-yazi-container {
+    width: 40%;
+    height: 432px;
+    margin-top: 57.6px;
+    margin-left: 43.2;
+}
+
+.creative {
+    width: 804px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-size: 27px;
+    color: #212629;
+    margin-left: 45px;
+}
+
+.nft-atelier {
+    width: 817px;
+    height: 112px;
+    left: 100px;
+    top: 3398px;
+    font-family: 'Jura';
+    font-style: normal;
+    font-size: 110px;
+    line-height: 100px;
+    color: #212629;
+    margin-top: 40px;
+    margin-left: 40px;
+
+}
+
+.list-atelier {
+    width: 891px;
+    font-family: 'Jura';
+    font-style: normal;
+    font-size: 30px;
+    line-height: 141%;
+    text-transform: uppercase;
+    color: #212629;
+    margin-left: 70px;
+    margin-top: 40px;
+
+}
+
+.tablets-cont {
+    width: 60%;
+    height: 288px;
+    margin-top: 144px;
+    display: flex;
+    justify-content: center;
+}
+
+.tablets {
+    width: 600px;
+    height: 752px;
+    float: right;
+    margin-top: -187.2px;
+    position: relative;
+    margin-left: 190px;
+}
+
+
+
+.atelier-button-cont {
+    width: 654px;
+    height: 81px;
+    background-color: white;
+    border-radius: 33px;
+    margin-top: 57.6px;
+    display: flex;
+    align-items: center;
+    margin-left: 45px;
+    gap: 8px;
+}
+
+.atelier-button {
+    width: 367px;
+    height: 81px;
+    border-radius: 33px;
+    background-color: #212629;
+    font-family: 'Jura';
+    font-style: normal;
+    font-size: 35px;
+    line-height: 90.5%;
+    text-transform: uppercase;
+    color: #F6D14D;
+    text-decoration: none;
+}
+
+.learn-more {
+    font-family: 'Abel';
+    font-style: normal;
+    font-size: 30px;
+    color: #696969;
+}
+
+.m-scroll {
+    display: flex;
+    position: relative;
+    width: 1440px;
+    height: 100.8px;
+    margin: auto;
+    overflow: hidden;
+    z-index: 1;
+    font-family: 'Jura';
+    font-style: normal;
+    font-size: 14.4;
+    text-transform: uppercase;
+    background-color: white;
+}
+
+.sliding-text {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: flex-start;
+    width: 1440px;
+    height: 100%;
+    white-space: nowrap;
+    transform: scale(2);
+    transition: all 1s ease;
+}
+
+.sliding-text>div {
+    display: flex;
+    animation: scrollText 33s infinite linear;
+}
+
+.sliding-text>h1 {
+    margin: 0;
+    font-size: 140px;
+    color: rgba(255, 255, 255, 1);
+    transition: all 2s ease;
+}
+
+.sliding-text>a {
+    text-decoration: none;
+    color: white;
+}
+
+.sliding-text>a:hover {
+    -webkit-text-stroke: 1px white;
+    color: transparent;
+}

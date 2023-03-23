@@ -1,0 +1,274 @@
+.nowseedlarva-container {
+    width: 1440px;
+    height: 1230px;
+    background-color: tomato;
+    display: flex;
+}
+
+.nowseedlarva-enust-cont {
+    display: flex;
+    gap: 200px;
+}
+
+.n0wapp {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-size: 21px;
+    line-height: 90.5%;
+    margin-top: 50px;
+    color: #212629;
+
+}
+
+.seed3 {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-size: 21px;
+    line-height: 90.5%;
+    margin-top: 50px;
+    color: #F6D14D;
+    padding-right: 50px;
+}
+
+.larvasys-io {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-size: 21px;
+    line-height: 90.5%;
+    margin-top: 50px;
+    color: #212629;
+    padding-right: 250px;
+}
+
+.freeforallbtn {
+    width: 131px;
+    height: 33.63px;
+    left: 317px;
+    top: 6766.91px;
+    margin-top: 50px;
+    border: 1px solid #000000;
+    border-radius: 14px;
+    background-color: #F6D14D;
+
+}
+
+.now-kutu {
+    width: 480px;
+    height: 1230px;
+    background-color: #F6D14D;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.seed-kutu {
+    width: 480px;
+    height: 1230px;
+    background-color: #191D1F;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.larva-kutu {
+    width: 480px;
+    height: 1230px;
+    background-color: #D78E4D;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.now {
+    width: 403px;
+    margin-top: 140px;
+}
+
+.now-baslik {
+    width: 431.3px;
+    font-family: 'Jura';
+    font-style: normal;
+    font-size: 110px;
+    line-height: 100px;
+    text-transform: uppercase;
+    color: #1F2426;
+    padding-left: 71px;
+    padding-top: 60px;
+
+}
+
+.now-ikinci-yazi {
+    width: 344px;
+    padding-top: 20px;
+    font-family: 'Jura';
+    font-style: normal;
+
+    font-size: 24px;
+    line-height: 37px;
+    /* or 154% */
+
+    text-transform: uppercase;
+
+    color: #1F2426;
+}
+
+.now-ucuncu-yazilar {
+    width: 344px;
+    padding-top: 30px;
+    font-family: 'Jura';
+    font-style: normal;
+    font-size: 24px;
+    line-height: 37px;
+    /* or 154% */
+
+    text-transform: uppercase;
+
+    color: #1F2426;
+
+}
+
+.now-btn {
+    width: 254px;
+    height: 81px;
+    background: #212629;
+    border-radius: 33px;
+    font-family: 'Jura';
+    font-style: normal;
+    font-size: 39px;
+    line-height: 90.5%;
+    text-transform: uppercase;
+    margin-top: 22px;
+    color: #F6D14D;
+    margin-right: 90px;
+
+}
+
+.seed-s {
+    width: 346px;
+    margin-top: 122px;
+}
+
+.seed-baslik {
+    width: 444.22px;
+    font-family: 'Jura';
+    font-style: normal;
+    font-size: 110px;
+    line-height: 100px;
+    text-transform: uppercase;
+    color: #F6D14D;
+    padding-left: 77px;
+    padding-top: 110px;
+
+}
+
+.seed-ikinci-yazi {
+    width: 344px;
+    padding-top: 20px;
+    font-family: 'Jura';
+    font-style: normal;
+    font-size: 24px;
+    line-height: 37px;
+    /* or 154% */
+
+    text-transform: uppercase;
+
+    color: #1F2426;
+
+    color: #F6D14D;
+
+}
+
+.seed-ucuncu-yazilar {
+    width: 344px;
+    padding-top: 30px;
+    font-family: 'Jura';
+    font-style: normal;
+    font-size: 24px;
+    line-height: 37px;
+    text-transform: uppercase;
+    color: #F6D14D;
+
+
+}
+
+.seed-btn {
+    width: 313px;
+    height: 81px;
+    left: 550px;
+    top: 7790px;
+    background: #F6D14D;
+    border-radius: 33px;
+    font-family: 'Jura';
+    font-style: normal;
+    font-size: 36px;
+    line-height: 90.5%;
+    text-transform: uppercase;
+    color: #191D1F;
+    margin-top: 25px;
+    margin-right: 23px;
+
+}
+
+.ants-s {
+    width: 480px;
+
+
+}
+
+.larva-baslik {
+    width: 353.16px;
+    font-family: 'Jura';
+    font-style: normal;
+    font-size: 110px;
+    line-height: 100px;
+    text-transform: uppercase;
+    color: #212629;
+    margin-top: 120px;
+
+}
+
+.larva-ikinci-yazi {
+    padding-left: 52px;
+    font-family: 'Jura';
+    font-style: normal;
+    font-size: 24px;
+    line-height: 37px;
+    text-transform: uppercase;
+    color: #1F2426;
+    padding-top: 20px;
+
+
+}
+
+.larva-ucuncu-yazilar {
+    width: 344px;
+    padding-top: 30px;
+    font-family: 'Jura';
+    font-style: normal;
+    font-size: 24px;
+    line-height: 37px;
+    text-transform: uppercase;
+    color: #1F2426;
+
+}
+
+.larva-btn {
+    width: 298px;
+    height: 81px;
+    left: 1027px;
+    top: 7790px;
+
+    background: #212629;
+    border-radius: 33px;
+    font-family: 'Jura';
+    font-style: normal;
+    font-size: 39px;
+    line-height: 90.5%;
+    text-transform: uppercase;
+    margin-top: 54px;
+    margin-right: 35px;
+    color: #D78E4D;
+
+}
